@@ -1,40 +1,37 @@
 package pack;
+
 import java.io.*;
-import java.util.*;
-import java.text.*;
 import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class day2{
+public class day2 {
+
+    // Complete the solve function below.
+    static void solve(double meal_cost, int tip_percent, int tax_percent) {
+        double tip=(meal_cost*tip_percent)/100;
+        double tax=(meal_cost*tax_percent)/100;
+        double total=(tip+tax+meal_cost);
+        System.out.println(Math.round(total));
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int i = 4;
-        double d = 4.0;
-        String s = "HackerRank ";
+        double meal_cost = scanner.nextDouble();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        Scanner scan = new Scanner(System.in);
+        int tip_percent = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        /* Declare second integer, double, and String variables. */
-        int i1;
-        double d1;
-        String s1;
+        int tax_percent = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        /* Read and save an integer, double, and String to your variables.*/
-        i1=scan.nextInt();
-        d1=scan.nextDouble();
-        scan.nextLine();
-        s1=scan.nextLine();
+        solve(meal_cost, tip_percent, tax_percent);
 
-        // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
-
-        /* Print the sum of both integer variables on a new line. */
-        System.out.println(i+i1);
-        /* Print the sum of the double variables on a new line. */
-        System.out.println(d+d1);
-        /* Concatenate and print the String variables on a new line;
-        	the 's' variable above should be printed first. */
-        System.out.print(s+s1);
-
-        scan.close();
+        scanner.close();
     }
 }
