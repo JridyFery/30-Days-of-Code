@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee625c5-f42c-49e9-baad-d9c06bb5e624" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pack/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/day0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/day1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/day3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pack/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-436">
@@ -85,6 +80,18 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#628#629#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pack/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/pack/day2.java" />
         <option value="$PROJECT_DIR$/src/pack/day4.java" />
         <option value="$PROJECT_DIR$/src/pack/Person.java" />
+        <option value="$PROJECT_DIR$/src/pack/Solution.java" />
       </list>
     </option>
   </component>
@@ -297,6 +305,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#628#629#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pack/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
